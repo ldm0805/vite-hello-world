@@ -1,16 +1,15 @@
 <script>
 export default {
-    data(){
-        return{
-            hello: "La mia prima app con Vue"
+    data() {
+        return {
+            hello: "La mia prima app con Vite!"
         }
     },
-
 }
 </script>
 
 <template>
-    <h1>
+    <h1 class="text-danger">
         {{ hello }}
     </h1>
 </template>
