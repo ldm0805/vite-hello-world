@@ -1,6 +1,5 @@
 <script>
 export default {
-    name: "AppTitle",
     data(){
         return{
             hello: "La mia prima app con Vue"
