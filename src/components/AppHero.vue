@@ -11,10 +11,13 @@ export default {
 
 <template>
     <div>
-        <img :src="url" alt="vite">
+        <img class="m-3" :src="url" alt="vite">
+        <img class="m-3" src="/img/bootstrap.jpg" alt="bootstrap">
     </div>
 </template>
 
 <style>
-
+img {
+    width: 100px;
+}
 </style>

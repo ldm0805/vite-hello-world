@@ -11,12 +11,14 @@ export default {
 };
 </script>
 
-
 <template>
-  <AppTitle />
-  <AppHero />
+  <div>
+    <AppTitle />
+    <AppHero />
+  </div>
 </template>
 
-<style scoped>
+
+<style>
 
 </style>
